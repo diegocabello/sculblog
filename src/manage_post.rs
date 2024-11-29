@@ -140,7 +140,6 @@ pub fn process_markdown_file(
     let markdown_content = fs::read_to_string(file_path)?;
     let html_content = markdown_to_html(&markdown_content);
     let preview_html = create_preview_html(&html_content);
-    let timestamp = Local::now().to_rfc3339();
 
     conn.execute(
         &format!(
