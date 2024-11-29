@@ -1,7 +1,12 @@
 [package]
 name = "sculblog"
 version = "0.1.0"
+authors = ["Diego Cabello <diego.cabello091@gmail.com>"]
 edition = "2021"
+repository = "https://github.com/diegocabello/sculblog"
+categories = ["command-line-utilities"]
+license = "MIT"
+description = "The best blogging framework for the internet!"
 
 [dependencies]
 pulldown-cmark = "0.9"
@@ -11,3 +16,7 @@ toml = "0.7"
 chrono = "0.4"
 regex = "1.5"
 shellexpand = "3.1.0"
+
+[[bin]]
+name = "sculblog"
+path = "src/main.rs"
