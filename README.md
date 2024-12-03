@@ -1,6 +1,6 @@
 # Sculblog
 
-Full documentation is availale at [https://sculblog.org](https://sculblog.org). 
+Full documentation is available at [https://sculblog.org](https://sculblog.org). 
 
 *The best blogging framework for the internet!*
 
