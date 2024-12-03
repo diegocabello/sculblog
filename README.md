@@ -6,7 +6,7 @@ Full documentation is available at [https://sculblog.org](https://sculblog.org).
 
 Licensed under MIT License. Techologic license is parody. 
 
-## Supported Operation Systems
+## Supported Operating Systems
 
 - Debian 12 (HVM)
 
