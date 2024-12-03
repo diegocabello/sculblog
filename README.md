@@ -1,6 +1,6 @@
 # Sculblog
 
-Full documentation is availale at [https://diegocabello.com/sculblog](https://diegocabello.com/sculblog). 
+Full documentation is availale at [https://sculblog.org](https://sculblog.org). 
 
 The best blogging framework for the internet!
 
