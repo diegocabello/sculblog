@@ -23,5 +23,5 @@ From a fresh virtual instance:
     - Later the repo will also hosted on sculblog.org
 5. Run `sudo source setup.sh` in the temp install directory to install remaining dependancies
     - PHP, sqlite3, python3 
-    - Your server choice (apache, nginx) will be automatically detected and required files will be extracted to there
+    - Your server choice (apache, nginx) will be automatically detected and required files will be extracted to the server folder (`/var/www/html`, `/usr/share/nginx/html`)
     - Temp installation files can be removed after successful installation
