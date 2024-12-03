@@ -21,7 +21,8 @@ From a fresh virtual instance:
 3. Go to a directory you can put temp install files (eg. `cd ~/Downloads`)
 4. Run `git clone https://github.com/diegocabello/sculblog.git` to clone the repo 
     - Later the repo will also hosted on sculblog.org
-5. Run `sudo source setup.sh` in the temp install directory to install remaining dependancies
-    - PHP, sqlite3, python3 
+5. Run `sudo source setup.sh` in the temp install directory to build Sculblog and install remaining dependancies
+    - PHP, sqlite3, python3, rust
+    - Rust will build sculblog from source 
     - Your server choice (apache, nginx) will be automatically detected and required files will be extracted to the server folder (`/var/www/html`, `/usr/share/nginx/html`)
     - Temp installation files can be removed after successful installation
