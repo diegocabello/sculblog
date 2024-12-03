@@ -23,6 +23,6 @@ From a fresh virtual instance:
     - Later the repo will also hosted on sculblog.org
 5. Run `sudo source setup.sh` in the temp install directory to build Sculblog and install remaining dependancies
     - PHP, sqlite3, python3, rust
-    - Rust will build sculblog from source 
+    - Rust will build Sculblog from source 
     - Your server choice (apache, nginx) will be automatically detected and required files will be extracted to the server folder (`/var/www/html`, `/usr/share/nginx/html`)
     - Temp installation files can be removed after successful installation
